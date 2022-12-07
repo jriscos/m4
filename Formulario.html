@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+    <title> FORMULARIO DE CONTACTO </title>
+    <meta charset="UTF-8">
+    <link href="css_proyecto.css" rel="stylesheet" type="text/css">
+
+    <link rel="shortcut icon" href="imagenes/favicon.png" type="image/ico">
+
+</head>
+
+<body>
+
+    <div id="nav">
+        <!-- BARRA DE MENÚ SUPERIOR -->
+        <img src="imagenes/logo.png" alt="logo">
+
+        <a href="Index.html"> <strong> INICIO </strong> </a>
+        <a href="Metodos.html"> <strong> CÓMO TRABAJAMOS </strong> </a>
+        <a href="Cursos.html"> <strong> CURSOS </strong> </a>
+        <a href="Formulario.html"> <strong> CONTACTO </strong> </a>
+
+
+    </div>
+
+    <form action="guardar.php" method="post">
+        <!-- EMPEZAREMOS EL FORMULARIO DE SI TE QUIERES APUNTAR AL CURSO, PARA QUE NOS LLEGUE LA NOTIFICACIÓN Y NOS PONGAMOS EN CONTACTO CON EL USUARIO. -->
+
+        <section class="registro">
+
+            <h3> FORMULARIO DE REGISTRO </h3>
+
+            <input class="controles" type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre">
+            <input class="controles" type="text" name="apellidos" id="apellidos" placeholder="Ingrese sus apellidos">
+            <input class="controles" type="text" name="correo" id="correo" placeholder="Ingrese su correo electrónico">
+            <input class="controles" type="password" name="contra" id="contra" placeholder="Ingrese una contraseña">
+            <input class="controles" type="password" name="contra_confirmar" id="contra_confirmar" placeholder="Confirme la contraseña">
+            <input class="controles3" type="checkbox" name="check" id="check"> Estoy de acuerdo con <a href="Terminos.html"> los términos y</a> ⠀⠀⠀<a href="Terminos.html">condiciones </a>
+            
+
+            <input class="boton" type="submit" name="enviar" id="enviar" value="Finalizar registro.">
+            <input class="boton" type="reset" name="reset" id="reset" value="Reiniciar registro.">
+
+            <p> <a href="Formulario2.html"> ¿Ya tienes cuenta? </a> </p>
+        </section>
+
+
+    </form>
+
+
+</body>
+
+</html>

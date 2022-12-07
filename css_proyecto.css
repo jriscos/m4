@@ -1,0 +1,370 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/*TODO - barra de arriba color y etc */
+div#nav {
+    background-color: skyblue;
+    text-align: right;
+    height: 60px;
+    padding-top: 30px;
+    margin-top: 1%;
+}
+
+/* TODO - barra de arriba letra */
+div#nav a {
+    color: black;
+    margin: 20px;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    padding: 15px;
+}
+
+/* TODO - hover de la barra de arriba */
+div#nav a:hover {
+    background: #F2F7F9
+}
+
+/* TOO - foto de la barra de arriba */
+div#nav img {
+    float: left;
+    width: 120px;
+    height: 80px;
+    margin-right: 1em;  
+    display: block;
+    position: absolute;
+    margin-left: 5px;
+    margin-top: -24px;
+}
+
+/* TODO - color de fondo */
+body {
+    background-color: #DFF2F6;
+}
+
+/* INDEX - frame de el google maps? */
+iframe {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+/*INDEX - titulo cursos disponibles */
+.cursos_disponibles { 
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 40px;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    color: darkblue;
+}
+
+ /*INDEX - texto cursos disponibles */
+.texto_cursos_disponibles {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+/* INDEX - div específico, imagenes */
+.col img{
+    height: 150px;
+    width: 265px;  
+}
+
+/* INDEX - div específico, texto  */
+.col {
+    width: 200px;
+    display:inline-block;
+    vertical-align: top;
+    text-align: justify;
+    padding: 90px;
+}
+
+/* INDEX - centrado del div, div general */
+.row{
+    text-align: center;
+    align-content: center;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+/* INDEX- imagen de arriba */
+.imgfondo {
+    margin: auto;
+    margin-top: 2%;
+    width: 900px;
+    height: 500px;   
+    display: flex;
+}
+
+/* CONTACTO - CSS DE FORMULARIO COMPLETO */
+form{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+ /* CONTACTO - LE APLICAMOS ESTILOS A LO QUE ES EL CONTENEDOR DEL FORMULARIO */
+.registro {
+    width: 400px;
+    background : #09749F;
+    padding: 30px;
+    margin: auto;
+    margin-top: 90px;
+    border-radius: 4px;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+ /* CONTACTO - LE APLICAMOS ESTILOS A LO QUE ES EL H3 DENTRO DEL CONTENEDOR DEL FORMULARIO */ 
+.registro h3 {
+    
+    font-size: 22px;
+    margin-bottom: 20px;  
+}
+
+/* CONTACTO - LE APLICAMOS ESTILOS A LOS APARTADOS DEL FORMULARIO */
+.controles { 
+    width: 95%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-size: 18px;
+    color: white;
+}
+
+/* CONTACTO - LE APLICAMOS ESTILOS A LA ETIQUETA P DENTRO DE REGISTRO*/
+.registro p { 
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* CONTACTO - LE APLICAMOS ESTILOS AL ENLACE DENTRO DEL FORMULARIO (EL DE POLITICA DE PRIVACIDAD) */
+.registro a { 
+    color: white;
+    text-decoration: none;
+}
+
+ /*CONTACTO - LE APLICAMOS ESTILOS AL MANTENERSE ENCIMA DEL ENLACE */
+.registro a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+/* CONTACTO - LE APLICAMOS ESTILOS A LOS DOS BOTONES DENTRO DEL FOMRULARIO. */
+.registro .boton { 
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 19px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+/* LE APLICAMOS ESTILOS A LA ETIQUETA P DENTRO DEL DIV COL */
+.col p { 
+    text-align: center;
+    margin-left: 30%;
+}
+
+.controles2 { /* LE APLICAMOS ESTILOS A CONTROLES2 */
+    text-align:justify;
+}
+
+.col2 { /* LE APLICAMOS ESTILOS A LOS DIVS QUE HACEN DE COLUMNA */
+    width: 200px;
+    display:inline-block;
+    vertical-align: top;
+    text-align:justify;
+    padding: 90px;
+    text-align: center;
+}
+
+.col2 img{ /* LE APLICAMOS ESTILOS A LA IMAGEN DENTRO DEL DIV */
+    height: 150px;
+    width: 265px;  
+}
+
+.col2 p{ /* LE APLICAMOS ESTILO A LA ETIQUETA P DEL DIV */
+    margin-left: 25%;
+}
+
+.row2{ /* LE APLICAMOS ESTILO AL DIV ROW */ 
+    text-align: center;
+    align-content: center;
+}
+
+.col2 h2{ /* CURSOS - LE APLICAMOS ESTILO AL DIV DE COL2 DE LA ETIQUETA H2*/ 
+    margin-left: 25%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.texto { /* CURSOS - LE APLICAMOS ESTILO AL CLASS TEXTO*/ 
+    width: 265px;
+}
+
+.texto p{ /* LE QUITAMOS LOS MARGENES DE LA IZQUIERDA*/
+    margin-left: 0%;
+}
+
+footer{ /* ALINEAMOS AL CENTRO EL CONTENIDO DEL FOOTER */
+    text-align: center;
+}
+
+footer a{ /* APLICAMOS ESTILOS A LA ETIQUETA A DEL FOOTER*/
+    color: #1f53c5;
+    text-decoration: none;
+}
+footer a:hover{ /* LE APLICAMOS ESTILO A LA ETIQUETA DE ENLACE DEL FOOTER*/
+    color: #000;
+}
+
+footer h1{ /* LE APLICAMOS ESTILOS A LA ETIQUETA DE H1 DENTRO DEL FOOTER*/
+    font-size: 22px;
+}
+
+h1{ /* LE APLICAMOS ESTILOS A LA ETIQUETA DE H1*/ 
+    text-align: center;
+}
+
+iframe { /* LE APLICAMOS ESTILOS A LA ETIQUETA DE IFRAME*/ 
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+h2{ /* CURSOS - java, py, c++ LE APLICAMOS ESTILOS A LA ETIQUETA DE H2*/ 
+    text-align: center;
+    font-size: 35px;
+}
+
+.controles2 { /* CURSOS - LE APLICAMOS ESTILOS A LA CLASE DE CONTROLES 2.*/
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: left;
+}
+
+.controles4 { /* CURSOS - footer */
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 10%;
+    margin-top: 8%;
+}
+
+select { /* CURSO - caja de capitulos del curso*/
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    background: #1f53c5;
+    color: #fff;
+    padding: 4px;
+    border-radius: 9px;
+  }
+
+.texto_en-menu_lopd{ /* POLITICA DE PRIVACIDAD - MENU SUPERIOR*/
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin-top: -30px;
+}
+
+.portada_cursos { /*CURSOS - CURSOS DISPONIBLES */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 19px;
+    text-align: center;
+    margin-top: 6%;
+    margin-bottom: -3%;
+    text-decoration-line: underline;
+    text-emphasis-color: red;
+    text-decoration-color: darkblue;
+    color: darkblue;
+}
+
+/* POLITICA DE PRIVACIDAD - EDICIÓN - START */
+.politica_de_privacidad-titulo1 {
+    font-family: 'Courier New', Courier, monospace;
+    margin-left:-18%;
+    margin-top: 5%;
+    text-decoration-line: underline;
+}
+.politica_de_privacidad-texto1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-left:10%;
+    margin-right:10%;
+    margin-bottom: 5%;
+}
+
+
+.politica_de_privacidad-titulo2 {
+    font-family: 'Courier New', Courier, monospace;
+    margin-left:-6%;
+    text-decoration-line: underline;
+}
+.politica_de_privacidad-texto2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-left:10%;
+    margin-right:10%;
+    margin-bottom: 5%;
+}
+
+
+.politica_de_privacidad-titulo3 {
+    font-family: 'Courier New', Courier, monospace;
+    margin-left:-31%;
+    text-decoration-line: underline;
+}
+.politica_de_privacidad-texto3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-left:10%;
+    margin-right:10%;
+    margin-bottom: 5%;
+}
+
+
+.politica_de_privacidad-titulo4 {
+    font-family: 'Courier New', Courier, monospace;
+    margin-left:-42%;
+    text-decoration-line: underline;
+}
+.politica_de_privacidad-texto4 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-left:10%;
+    margin-right:10%;
+    margin-bottom: 5%;
+}
+
+.volver_form {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 35%;
+    margin-bottom: 7%;
+} /* POLITICA DE PRIVACIDAD - EDICIÓN - END */
+
+
+.compra_cursos { /*CURSOS - PREGUNTAR COMPRA*/
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    text-align: center;
+    color: darkblue;
+    font-weight: bold;
+}
+
+span {color: red} /* color rojo en el precio*/
+
