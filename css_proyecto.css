@@ -43,22 +43,52 @@ body {
     background-color: #DFF2F6;
 }
 
-/* INDEX - frame de el google maps? */
-iframe {
-    margin-left: 1%;
-    margin-right: 1%;
-}
-
-/*INDEX - titulo cursos disponibles */
-.cursos_disponibles { 
+.titulo_index {
     font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    font-size: 40px;
     text-decoration: underline;
     text-align: center;
-    margin-top: 5%;
-    margin-bottom: 0%;
-    color: darkblue;
+    font-size: 70px;
+    font-weight: bold;
+
+}
+
+/* INDEX - LE APLICAMOS ESTILOS A LA ETIQUETA DE IFRAME*/ 
+iframe { 
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+/* INDEX - google maps ALINEAMOS AL CENTRO EL CONTENIDO DEL FOOTER */
+footer{ 
+    text-align: center;
+    margin-top: -3%;
+    margin-bottom: 3%;
+}
+
+/* INDEX - footer texto (titulo)*/
+.footer_txt {
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+    margin-top: 0%;
+    color:darkblue;
+}
+
+/* INDEX - footer texto (texto)*/
+.footer_txt_2 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5%;
+}
+
+/* INDEX- imagen de arriba */
+.imgfondo {
+    margin: auto;
+    margin-top: 2%;
+    width: 1280px;
+    height: 400px;   
+    display: flex;
 }
 
  /*INDEX - texto cursos disponibles */
@@ -70,10 +100,29 @@ iframe {
     margin-right: 15%;
 }
 
+/* INDEX - centrado del div, div general */
+.row{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* INDEX - titulo encima de las imagenes*/
+.col_titulo{
+margin-left: 30%;
+}
+
 /* INDEX - div específico, imagenes */
 .col img{
     height: 150px;
-    width: 265px;  
+    width: 265px;
+}
+
+/* INDEX - LE APLICAMOS ESTILOS A LA ETIQUETA P DENTRO DEL DIV COL */
+.col p { 
+    text-align: center;
+    margin-left: 5%;
+    margin-right: -30%;
+    font-weight: bold;
 }
 
 /* INDEX - div específico, texto  */
@@ -81,25 +130,8 @@ iframe {
     width: 200px;
     display:inline-block;
     vertical-align: top;
-    text-align: justify;
-    padding: 90px;
-}
-
-/* INDEX - centrado del div, div general */
-.row{
-    text-align: center;
-    align-content: center;
-    font-family: 'Courier New', Courier, monospace;
-
-}
-
-/* INDEX- imagen de arriba */
-.imgfondo {
-    margin: auto;
-    margin-top: 2%;
-    width: 900px;
-    height: 500px;   
-    display: flex;
+    padding: 140px;
+    margin-top: -7%;
 }
 
 /* CONTACTO - CSS DE FORMULARIO COMPLETO */
@@ -173,12 +205,6 @@ form{
     font-weight: bold;
 }
 
-/* INDEX - LE APLICAMOS ESTILOS A LA ETIQUETA P DENTRO DEL DIV COL */
-.col p { 
-    text-align: center;
-    margin-left: 30%;
-}
-
 /* CURSOS - LE APLICAMOS ESTILOS A CONTROLES2 */
 .controles2 { 
     text-align:justify;
@@ -227,36 +253,19 @@ form{
     margin-left: 0%;
 }
 
-/* ALINEAMOS AL CENTRO EL CONTENIDO DEL FOOTER */
+/*  - ALINEAMOS AL CENTRO EL CONTENIDO DEL FOOTER */
 footer{ 
     text-align: center;
 }
 
- /* APLICAMOS ESTILOS A LA ETIQUETA A DEL FOOTER*/
-footer a{
-    color: #1f53c5;
-    text-decoration: none;
-}
-
-/* LE APLICAMOS ESTILO A LA ETIQUETA DE ENLACE DEL FOOTER*/
-footer a:hover{ 
-    color: #000;
-}
-
- /* LE APLICAMOS ESTILOS A LA ETIQUETA DE H1 DENTRO DEL FOOTER*/
+ /* CURSOS- LE APLICAMOS ESTILOS A LA ETIQUETA DE H1 DENTRO DEL FOOTER*/
 footer h1{
     font-size: 22px;
 }
 
-/* LE APLICAMOS ESTILOS A LA ETIQUETA DE H1*/ 
+/* TODO -  LE APLICAMOS ESTILOS A LA ETIQUETA DE H1*/ 
 h1{ 
     text-align: center;
-}
-
-/* LE APLICAMOS ESTILOS A LA ETIQUETA DE IFRAME*/ 
-iframe { 
-    margin-left: 25%;
-    margin-right: 25%;
 }
 
 /* CURSOS - java, py, c++ LE APLICAMOS ESTILOS A LA ETIQUETA DE H2*/ 
@@ -302,11 +311,11 @@ select {
 /*CURSOS - CURSOS DISPONIBLES */
 .portada_cursos { 
     font-family: 'Courier New', Courier, monospace;
-    font-size: 19px;
+    font-size: 30px;
     text-align: center;
-    margin-top: 6%;
-    margin-bottom: -3%;
-    text-decoration-line: underline;
+    margin-top: 4%;
+    margin-bottom: -4%;
+    text-decoration: underline 4px;
     text-emphasis-color: red;
     text-decoration-color: darkblue;
     color: darkblue;
@@ -315,7 +324,7 @@ select {
 /* POLITICA DE PRIVACIDAD - EDICIÓN - START */
 .politica_de_privacidad-titulo1 {
     font-family: 'Courier New', Courier, monospace;
-    margin-left:-18%;
+    margin-left:-35%;
     margin-top: 5%;
     text-decoration-line: underline;
 }
@@ -328,7 +337,7 @@ select {
 }
 .politica_de_privacidad-titulo2 {
     font-family: 'Courier New', Courier, monospace;
-    margin-left:-6%;
+    margin-left:-27%;
     text-decoration-line: underline;
 }
 .politica_de_privacidad-texto2 {
@@ -340,7 +349,7 @@ select {
 }
 .politica_de_privacidad-titulo3 {
     font-family: 'Courier New', Courier, monospace;
-    margin-left:-31%;
+    margin-left:-44%;
     text-decoration-line: underline;
 }
 .politica_de_privacidad-texto3 {
@@ -352,7 +361,7 @@ select {
 }
 .politica_de_privacidad-titulo4 {
     font-family: 'Courier New', Courier, monospace;
-    margin-left:-42%;
+    margin-left:-53%;
     text-decoration-line: underline;
 }
 .politica_de_privacidad-texto4 {
@@ -372,6 +381,7 @@ select {
 } 
 /* POLITICA DE PRIVACIDAD - EDICIÓN - END */
 
+
 /*CURSOS - PREGUNTAR COMPRA*/
 .compra_cursos { 
     font-family: 'Courier New', Courier, monospace;
@@ -380,10 +390,6 @@ select {
     color: darkblue;
     font-weight: bold;
 }
+
 /* CURSOS - color rojo en el precio*/
 span {color: red} 
-
-/* INDEX - footer texto*/
-.footer_txt {
-    font-family: 'Courier New', Courier, monospace;
-}
