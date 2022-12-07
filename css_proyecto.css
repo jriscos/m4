@@ -173,17 +173,19 @@ form{
     font-weight: bold;
 }
 
-/* LE APLICAMOS ESTILOS A LA ETIQUETA P DENTRO DEL DIV COL */
+/* INDEX - LE APLICAMOS ESTILOS A LA ETIQUETA P DENTRO DEL DIV COL */
 .col p { 
     text-align: center;
     margin-left: 30%;
 }
 
-.controles2 { /* LE APLICAMOS ESTILOS A CONTROLES2 */
+/* CURSOS - LE APLICAMOS ESTILOS A CONTROLES2 */
+.controles2 { 
     text-align:justify;
 }
 
-.col2 { /* LE APLICAMOS ESTILOS A LOS DIVS QUE HACEN DE COLUMNA */
+/* CURSOS - LE APLICAMOS ESTILOS A LOS DIVS QUE HACEN DE COLUMNA */
+.col2 { 
     width: 200px;
     display:inline-block;
     vertical-align: top;
@@ -192,77 +194,94 @@ form{
     text-align: center;
 }
 
-.col2 img{ /* LE APLICAMOS ESTILOS A LA IMAGEN DENTRO DEL DIV */
+/*CURSOS - LE APLICAMOS ESTILOS A LA IMAGEN DENTRO DEL DIV */
+.col2 img{ 
     height: 150px;
     width: 265px;  
 }
 
-.col2 p{ /* LE APLICAMOS ESTILO A LA ETIQUETA P DEL DIV */
+/*CURSOS - LE APLICAMOS ESTILO A LA ETIQUETA P DEL DIV */
+.col2 p{ 
     margin-left: 25%;
 }
 
-.row2{ /* LE APLICAMOS ESTILO AL DIV ROW */ 
+ /* CURSOS - LE APLICAMOS ESTILO AL DIV ROW */ 
+.row2{
     text-align: center;
     align-content: center;
 }
 
-.col2 h2{ /* CURSOS - LE APLICAMOS ESTILO AL DIV DE COL2 DE LA ETIQUETA H2*/ 
+ /* CURSOS - LE APLICAMOS ESTILO AL DIV DE COL2 DE LA ETIQUETA H2*/ 
+.col2 h2{
     margin-left: 25%;
     font-family: 'Courier New', Courier, monospace;
 }
 
-.texto { /* CURSOS - LE APLICAMOS ESTILO AL CLASS TEXTO*/ 
+/* CURSOS - LE APLICAMOS ESTILO AL CLASS TEXTO*/ 
+.texto { 
     width: 265px;
 }
 
-.texto p{ /* LE QUITAMOS LOS MARGENES DE LA IZQUIERDA*/
+ /* CURSOS - LE QUITAMOS LOS MARGENES DE LA IZQUIERDA*/
+.texto p{
     margin-left: 0%;
 }
 
-footer{ /* ALINEAMOS AL CENTRO EL CONTENIDO DEL FOOTER */
+/* ALINEAMOS AL CENTRO EL CONTENIDO DEL FOOTER */
+footer{ 
     text-align: center;
 }
 
-footer a{ /* APLICAMOS ESTILOS A LA ETIQUETA A DEL FOOTER*/
+ /* APLICAMOS ESTILOS A LA ETIQUETA A DEL FOOTER*/
+footer a{
     color: #1f53c5;
     text-decoration: none;
 }
-footer a:hover{ /* LE APLICAMOS ESTILO A LA ETIQUETA DE ENLACE DEL FOOTER*/
+
+/* LE APLICAMOS ESTILO A LA ETIQUETA DE ENLACE DEL FOOTER*/
+footer a:hover{ 
     color: #000;
 }
 
-footer h1{ /* LE APLICAMOS ESTILOS A LA ETIQUETA DE H1 DENTRO DEL FOOTER*/
+ /* LE APLICAMOS ESTILOS A LA ETIQUETA DE H1 DENTRO DEL FOOTER*/
+footer h1{
     font-size: 22px;
 }
 
-h1{ /* LE APLICAMOS ESTILOS A LA ETIQUETA DE H1*/ 
+/* LE APLICAMOS ESTILOS A LA ETIQUETA DE H1*/ 
+h1{ 
     text-align: center;
 }
 
-iframe { /* LE APLICAMOS ESTILOS A LA ETIQUETA DE IFRAME*/ 
+/* LE APLICAMOS ESTILOS A LA ETIQUETA DE IFRAME*/ 
+iframe { 
     margin-left: 25%;
     margin-right: 25%;
 }
 
-h2{ /* CURSOS - java, py, c++ LE APLICAMOS ESTILOS A LA ETIQUETA DE H2*/ 
+/* CURSOS - java, py, c++ LE APLICAMOS ESTILOS A LA ETIQUETA DE H2*/ 
+h2{ 
     text-align: center;
     font-size: 35px;
 }
 
-.controles2 { /* CURSOS - LE APLICAMOS ESTILOS A LA CLASE DE CONTROLES 2.*/
+/* CURSOS - LE APLICAMOS ESTILOS A LA CLASE DE CONTROLES 2*/
+.controles2 { 
     display: flex;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     text-align: left;
 }
 
-.controles4 { /* CURSOS - footer */
+ /* CURSOS - footer */
+.controles4 {
     font-family: 'Courier New', Courier, monospace;
     margin-bottom: 10%;
     margin-top: 8%;
 }
 
-select { /* CURSO - caja de capitulos del curso*/
+/* CURSO - caja de capitulos del curso*/
+select { 
     margin-bottom: 10px;
     margin-top: 10px;
     font-family: 'Courier New', Courier, monospace;
@@ -273,13 +292,15 @@ select { /* CURSO - caja de capitulos del curso*/
     border-radius: 9px;
   }
 
-.texto_en-menu_lopd{ /* POLITICA DE PRIVACIDAD - MENU SUPERIOR*/
+/* POLITICA DE PRIVACIDAD - MENU SUPERIOR*/
+.texto_en-menu_lopd{ 
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
     margin-top: -30px;
 }
 
-.portada_cursos { /*CURSOS - CURSOS DISPONIBLES */
+/*CURSOS - CURSOS DISPONIBLES */
+.portada_cursos { 
     font-family: 'Courier New', Courier, monospace;
     font-size: 19px;
     text-align: center;
@@ -305,8 +326,6 @@ select { /* CURSO - caja de capitulos del curso*/
     margin-right:10%;
     margin-bottom: 5%;
 }
-
-
 .politica_de_privacidad-titulo2 {
     font-family: 'Courier New', Courier, monospace;
     margin-left:-6%;
@@ -319,8 +338,6 @@ select { /* CURSO - caja de capitulos del curso*/
     margin-right:10%;
     margin-bottom: 5%;
 }
-
-
 .politica_de_privacidad-titulo3 {
     font-family: 'Courier New', Courier, monospace;
     margin-left:-31%;
@@ -333,8 +350,6 @@ select { /* CURSO - caja de capitulos del curso*/
     margin-right:10%;
     margin-bottom: 5%;
 }
-
-
 .politica_de_privacidad-titulo4 {
     font-family: 'Courier New', Courier, monospace;
     margin-left:-42%;
@@ -347,24 +362,28 @@ select { /* CURSO - caja de capitulos del curso*/
     margin-right:10%;
     margin-bottom: 5%;
 }
-
-.volver_form {
+.volver_form {/* POLITICA DE PRIVACIDAD - link para volver a contacto */
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
     text-align: center;
     font-weight: bold;
     margin-left: 35%;
     margin-bottom: 7%;
-} /* POLITICA DE PRIVACIDAD - EDICIÓN - END */
+} 
+/* POLITICA DE PRIVACIDAD - EDICIÓN - END */
 
-
-.compra_cursos { /*CURSOS - PREGUNTAR COMPRA*/
+/*CURSOS - PREGUNTAR COMPRA*/
+.compra_cursos { 
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
     text-align: center;
     color: darkblue;
     font-weight: bold;
 }
+/* CURSOS - color rojo en el precio*/
+span {color: red} 
 
-span {color: red} /* color rojo en el precio*/
-
+/* INDEX - footer texto*/
+.footer_txt {
+    font-family: 'Courier New', Courier, monospace;
+}
