@@ -316,7 +316,6 @@ select {
     margin-top: 4%;
     margin-bottom: -4%;
     text-decoration: underline 4px;
-    text-emphasis-color: red;
     text-decoration-color: darkblue;
     color: darkblue;
 }
@@ -393,3 +392,85 @@ select {
 
 /* CURSOS - color rojo en el precio*/
 span {color: red} 
+
+/* PORTADA DE CÓMO TRABAJAMOS */
+.portada_metodos { 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: -4%;
+    text-decoration: underline 4px;
+    text-decoration-color: #6772F0;
+    color: #6772F0;
+}
+
+/* LE PONEMOS ATRIBUTOS AL TEXTO DEL DOCUMENTO DE MÉTODOS. */
+.texto_metodos {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-left:10%;
+    margin-right:10%;
+    margin-bottom: 5%;
+    font-size: 20px;
+}
+
+/* LE PONEMOS ATRIBUTOS AL DIV GENERAL DEL DOCUMENTO DE MÉTODOS. */
+.row3 {
+    text-align: right;
+    align-content: center;
+    border: 7px solid #000;
+}
+
+/* LE PONEMOS ATRIBUTOS AL DIV DE UNO DE LOS PROFESORES */
+.col3 {
+    display:flex;
+    vertical-align: top;
+    text-align: left;
+    padding: 50px;
+    margin-left: 7%;
+}
+
+/* LE PONEMOS ATRIBUTOS A LA IMAGEN DE UNO DE LOS PROFESORES. */
+.col3 img{ 
+    height: 250px;
+    width: 505px;  
+    margin-top: 5%;
+}
+
+/* LE PONEMOS ATRIBUTOS AL TEXTO DE UNO DE LOS PROFESORES*/
+.controles3 {
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+/* LE PONEMOS ATRIBUTOS A LA IMAGEN DEL OTRO PROFESOR*/
+.col4 img{
+    height: 250px;
+    width: 420px;
+    margin-top: 5%;
+}
+
+/* LE PONEMOS ATRIBUTOS AL DIV DEL OTRO PROFESOR*/ 
+.col4 {
+    display:flex;
+    vertical-align: top;
+    text-align: left;
+    padding: 50px;
+    margin-left: 7%;
+}
+ /* LE PONEMOS ATRIBUTOS AL TEXTO*/
+.controles3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-left:10%;
+    margin-right:10%;
+    margin-bottom: 5%;
+}
+
+/* MÁRGENES */
+.row3 {
+    margin-left: 10%;
+    margin-right: 10%;
+}
