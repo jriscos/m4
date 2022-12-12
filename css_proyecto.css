@@ -376,7 +376,6 @@ select {
     text-align: center;
     font-weight: bold;
     margin-left: 35%;
-    margin-bottom: 7%;
 } 
 /* POLITICA DE PRIVACIDAD - EDICIÓN - END */
 
@@ -401,8 +400,8 @@ span {color: red}
     margin-top: 4%;
     margin-bottom: -4%;
     text-decoration: underline 4px;
-    text-decoration-color: #6772F0;
-    color: #6772F0;
+    text-decoration-color: darkblue;
+    color: darkblue;
 }
 
 /* LE PONEMOS ATRIBUTOS AL TEXTO DEL DOCUMENTO DE MÉTODOS. */
