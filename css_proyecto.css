@@ -404,6 +404,12 @@ span {color: red}
     color: darkblue;
 }
 
+.portada_metodos h1{
+    text-decoration-color: darkblue;
+    text-decoration: underline 4px;
+    color: darkblue;
+}
+
 /* LE PONEMOS ATRIBUTOS AL TEXTO DEL DOCUMENTO DE MÉTODOS. */
 .texto_metodos {
     font-family: 'Courier New', Courier, monospace;
