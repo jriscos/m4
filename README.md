@@ -1,1 +1,1 @@
-# Repositorio de la pàgina web de Javier Riscos y Daniel López.
+# Repositorio de la pàgina web de J&D
